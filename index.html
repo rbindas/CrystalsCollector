@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CrystalsCollector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <script type="text/javascript" src="assets/javascript/game2.js"></script>
+</head>
+
+<body>
+	<div class="box">
+		<div class="container">
+			<div class="row">
+				<div class="title col-md-6">
+					<h2>CrystalsCollector!</h2>	
+				</div>
+			</div>
+		</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="instruction col-md-8">
+				
+		  				<h2>Game Instructions:</h2>
+		  				<br>
+		  				<p>A Magic Number will be given at the start of the game.</p>
+		  				<br>
+		  				<p>There are four crystals below. When the player clicks on a crystal, it will add a specific amount of points to the player's total score. This value is hidden until the player clicks a crystal. When the crystal is clicked, the player's score counter will update.</p>
+		  				<br>
+		  				<p>The player wins if their total score matches the random number from the beginning of the game. The player loses if their score goes above the random number.</p>
+		  				<br>
+		  				<p>Each time the game starts, the value of each crystal will change.</p>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="container">
+		<div class="row">
+			<div class="score col-md-3 col-sm-4 col-xs-4">
+				Magic Number: &nbsp<span id="target">0</span>
+				
+			</div>
+			<div class="col-md-6 col-sm-4 col-xs-4"></div>
+			<div class="score col-md-3 col-sm-4 col-xs-4">
+				Your Score: &nbsp<span id="totalscore">0</span>
+			</div>  
+		</div>
+	</div>
+	<br>
+	
+   <div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-4 col-xs-4"> 
+				
+						<table class=crystals>
+							<tr>
+				        <td><img id="crystal1" src="assets/images/crystal1.jpg"></td>
+				        <td><img id="crystal2" src="assets/images/crystal2.jpg"></td>
+				        <td><img id="crystal3" src="assets/images/crystal3.jpg"></td>
+				        <td><img id="crystal4" src="assets/images/crystal4.jpg"></td>
+				        	</tr>
+				    	</table>
+    			</div>
+    	</div>
+    </div>
+
+
+    <div class="container">
+		<div class="row">
+			<div class="wl col-md-3 col-sm-4 col-xs-4">
+				<p>Wins: &nbsp<span id="win">0</span></p>
+			</div>
+
+			<div class="col-md-6 col-sm-4 col-xs-4"></div> 
+
+			<div class="wl col-md-3 col-sm-4 col-xs-4">
+				<p>Losses: &nbsp<span id="loss">0</span></p>
+			</div>
+		</div>
+	</div>
+
+   </div> <!-- end of box-->
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+  background: url("../images/background.jpg");
+}
+
+.box {
+  width: 700px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  border: solid grey;
+  background: #FAFFFC;
+}
+
+.container {
+	margin-left: 20px;
+}
+
+
+.title {
+  width: 300px;
+  height: 60px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;  
+  font-weight: 700;
+  line-height: 60px;
+  color: #ff9933;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+
+ .instruction {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;  
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  }
+
+  .target {
+   *width: 90px;
+	  height: 85px;
+    padding-right: 50px;
+  	
+  }
+
+
+  .score,.wl {
+	font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: bold 16px;
+  font-weight: bold;
+  float: left;
+  padding-right: 50px;
+   	
+  }
+
+  img {
+  	clear: both;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 85px;
+  	height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+  	
+
+  }
+
+ 
